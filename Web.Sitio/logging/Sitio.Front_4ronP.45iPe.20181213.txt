@@ -1,0 +1,17 @@
+2018-12-13 20:10:00,499 [11] ERROR LUPA.Sitio.MvcApplication - System.InvalidOperationException: No se encuentra la vista 'IndexXXX' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Dashboard/IndexXXX.aspx
+~/Views/Dashboard/IndexXXX.ascx
+~/Views/Shared/IndexXXX.aspx
+~/Views/Shared/IndexXXX.ascx
+~/Views/Dashboard/IndexXXX.cshtml
+~/Views/Dashboard/IndexXXX.vbhtml
+~/Views/Shared/IndexXXX.cshtml
+~/Views/Shared/IndexXXX.vbhtml
+   en System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
