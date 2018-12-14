@@ -16,8 +16,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="@Url.Action("Index","Form")">Form valid<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href=@Url.Action("GrillaNet", "Grilla", new { Area = "Desa" })>Grilla</a></li>
+                <li><a href=@Url.Action("Index", "Formulario", new { Area = "Desa" })>Formulario</a></li>
+                
 
             </ul>
            @Html.Partial("~/Views/Partials/_Desarrollo.cshtml")
